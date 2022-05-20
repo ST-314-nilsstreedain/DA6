@@ -6,6 +6,11 @@ microbeers = read.csv(file.choose(), header = TRUE)
 # gives variable names.
 names(microbeers) # gives variable names. 
 
+boxplot(microbeers$abv, 
+        main = "Alchol by volume for various microbeers", 
+        xlab = "Alchol by volume", 
+        col = "dodgerblue")
+
 # Make an appropriate visual display for abv. 
 # Recall hist() or boxplot()
 # Add a title. 
@@ -30,5 +35,4 @@ names(microbeers) # gives variable names.
 # the point estimate for the population mean
 
 t.test(microbeers$abv, alternative = "two.sided", mu = 5, conf.level = 0.95)
-
 ##########PART 1 END ############################################################################# 
