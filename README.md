@@ -106,7 +106,7 @@ P-value = 0.00913
 ```
 H0: μ = 750
 Ha: μ ≠ 750
-Test-sta5s5c: -2.76596
+Test-statistic: -2.76596
 P-value: 0.00913
 
 We reject the null hypothesis H0: μ = 750 because the p-value is less than the
